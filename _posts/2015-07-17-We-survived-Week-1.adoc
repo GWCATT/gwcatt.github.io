@@ -1,0 +1,19 @@
+= We survived Week 1!
+
+:published_at: 2015-07-17
+
+:hp-tags: Week 1
+
+Our first week of class is in the books, and it was stellar.
+The first week of Girls Who Code is all about getting to know the fundamentals of programming using Scratch (and getting to know each other). http://www.scratch.mit.edu[Scratch] is a visual-programming language that is used at introductory computer science courses http://cdn.cs50.net/2015/x/psets/0/pset0/pset0.html[in colleges] across the country. 
+
+We've got an amazing group of 20 girls, and for many, this is a first experience with programming - although you'd never guess that by looking at the awesome things we created this week!
+
+We learned that programming languages are all capable of doing four things:
+
+. running code in a certain order (control flow),
+. making decisions (conditionals),
+. repeating things (loops), and
+. remembering things (variables).
+
+While we practiced each of these things separately, we also combined these tools to create some really remarkable programs. Check out some of the projects we worked on!
