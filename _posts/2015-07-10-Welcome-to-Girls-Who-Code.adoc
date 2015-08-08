@@ -1,0 +1,9 @@
+= Welcome to Girls Who Code
+
+:published_at: 2015-07-10
+
+:hp-tags: Week 1
+
+The Girls Who Code Summer Immersion Program is a 7-week intensive computer science course that embeds classrooms in technology companies and universities. Girls learn everything from robotics to mobile development to HTML and CSS while gaining exposure to the tech industry and receiving valuable mentorship from women working in technology.
+
+Check back throughout the summer to see what our students are making, and leave feedback on our projects!
