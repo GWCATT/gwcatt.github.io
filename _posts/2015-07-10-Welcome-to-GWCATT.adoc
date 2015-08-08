@@ -1,4 +1,4 @@
-= Welcome to Girls Who Code
+= Welcome to #GWCATT
 
 :published_at: 2015-07-10
 
