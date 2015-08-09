@@ -452,6 +452,8 @@ margin on the iframe, cause it breaks stuff. */
     width: 80%;
     max-width: 710px;
     margin: 0 auto;
+   background: radial-gradient(ellipse at center,  rgba(0,0,0,0.4) 0%,rgba(0,0,0,0.4) 50%,rgba(0,0,0,0) 100%);
+
 }
 
 /* Centres vertically yo. (IE8+) */
