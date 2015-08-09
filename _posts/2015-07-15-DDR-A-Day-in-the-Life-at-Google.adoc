@@ -1,0 +1,6 @@
+= DDR: A Day in the Life at Google
+
+:published_at: 2015-07-15
+
+:hp-tags: Week 1
+
