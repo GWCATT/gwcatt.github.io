@@ -573,6 +573,7 @@ margin on the iframe, cause it breaks stuff. */
     border: transparent 1px solid;
     color: #9EABB3;
     text-align: center;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     font-size: 12px;
     text-transform: uppercase;
     line-height: 35px;
@@ -599,6 +600,7 @@ margin on the iframe, cause it breaks stuff. */
     border: transparent 1px solid;
     color: #9EABB3;
     text-align: center;
+    text-shadow: 2px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
     font-size: 12px;
     text-transform: uppercase;
     line-height: 35px;
