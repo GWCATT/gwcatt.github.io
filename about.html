@@ -12,7 +12,7 @@
 
     <link rel="shortcut icon" href="//GWCATT.github.io/themes/Casper/favicon.ico">
 
-    <link rel="stylesheet" type="text/css" href="//GWCATT.github.io/themes/Casper/assets/css/screen.css?v=1.0.0" />
+    <link rel="stylesheet" type="text/css" href="//GWCATT.github.io/themes/Casper/assets/css/screen.css" />
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Merriweather:300,700,700italic,300italic|Open+Sans:700,400" />
 
     <link rel="canonical" href="https://GWCATT.github.io" />
@@ -30,6 +30,25 @@
 	.wrap {
 	   overflow: hidden;
 	   margin: 10px;
+	}
+	/* Add a little circle in the middle of the border-bottom on our .post
+   	just for the lolz and stylepoints. */
+	.wrap:after {
+	    display: block;
+	    content: "";
+	    width: 7px;
+	    height: 7px;
+	    border: #E7EEF2 1px solid;
+	    position: absolute;
+	    bottom: -5px;
+	    left: 50%;
+	    margin-left: -5px;
+	    background: #FFF;
+	    border-radius: 100%;
+	    box-shadow: #FFF 0 0 0 5px;
+	}
+	.box-wrap {
+		margin: auto;
 	}
 	.box {
 	   float: left;
@@ -53,7 +72,7 @@
 	   bottom: 0;
 	   left: 0;
 	   right: 0;
-	   margin-bottom: -50px;
+	   margin-bottom: -100px;
 	   background: #000;
 	   background: rgba(0, 0, 0, 0.5);
 	   color: #FFF;
@@ -107,8 +126,8 @@
 <header class="main-header " style="background-image: url(/images/header-photo.jpg)">
 	<nav class="main-nav overlay clearfix">
         <a class="back-button icon-arrow-left" href="https://GWCATT.github.io">Home</a>
-        <a class="subscribe-button icon-feed" href="https://GWCATT.github.io/about">About</a>
         <a class="subscribe-button icon-feed" href="https://GWCATT.github.io/projects">Projects</a>
+        <a class="subscribe-button icon-feed" href="https://GWCATT.github.io/about">About</a>
         <!-- <a class="subscribe-button icon-feed" href="https://GWCATT.github.io/rss/">Subscribe</a> -->
     </nav>
     <div class="vertical">
@@ -120,29 +139,177 @@
 </header>
 
 <main id="content" class="content" role="main">
-
-	<div class="wrap">
-    <!-- Define all of the tiles: -->
-        <div class="box">
-            <div class="boxInner">
-              <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
-              <div class="titleBox">Meg D.</div>
-            </div>
-          </div>
-        <div class="box">
-            <div class="boxInner">
-              <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
-              <div class="titleBox">Gina S.</div>
-            </div>
-        </div>
-        <div class="box">
-            <div class="boxInner">
-              <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
-              <div class="titleBox">Anjali F.</div>
-            </div>
-        </div>
-  </div> <!-- /#wrap -->
 	
+	<div class="wrap">
+	    <h1 style="text-align:center">The Teaching Team</h1>
+	    <!-- Define all of the tiles: -->
+	    <div class="box-wrap">
+	    	<div class="box">
+		    	<div class="boxInner">
+		        	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+		        	<div class="titleBox">Meg D.</div>
+		        </div>
+			</div>        
+			<div class="box">
+	            <div class="boxInner">
+	              <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              <div class="titleBox">Gina S.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              <div class="titleBox">Anjali F.</div>
+	            </div>
+	        </div>
+	    </div> <!-- /#box-wrap -->
+  	</div> <!-- /#wrap -->
+	
+	<div class="wrap">
+	    <h1 style="text-align:center">The Students</h1>
+    	<!-- Define all of the tiles: -->
+    	<div class="box-wrap">
+	        <div class="box">
+	            <div class="boxInner">
+	            	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Nisha A.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	        	<div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Sakina A.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Sarah A.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Lucie L.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Leslie F.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Jourdann F.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	            	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Michelle G.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Angelica H.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Naledi K.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Ophelia M.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Jahanara N.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Danna P.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	        	<div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Jessica P.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Mayra Q.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Margot R.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Shaneil W.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Josie D.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	            	 <img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/2.jpg" />
+	              	<div class="titleBox">Emma S.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Michelle T.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Fion W.</div>
+	            </div>
+        	</div>
+        </div> <!-- /#box-wrap -->
+  	</div> <!-- /#wrap -->
+  	
+  	<div class="wrap">
+  	    <h1 style="text-align:center">The AT&amp;T Team</h1>
+	    <!-- Define all of the tiles: -->
+	    <div class="box-wrap">
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/7.jpg" />
+	              	<div class="titleBox">Robin W.</div>
+	            </div>
+	        </div>
+	        <div class="box">
+	            <div class="boxInner">
+	              	<img src="http://www.dwuser.com/education/content/creating-responsive-tiled-layout-with-pure-css/images/demo/1.jpg" />
+	              	<div class="titleBox">Jill E.</div>
+	            </div>
+	        </div>
+	    </div> <!-- /#box-wrap -->
+	</div> <!-- /#wrap -->
 </main>
 
 <footer class="site-footer clearfix">

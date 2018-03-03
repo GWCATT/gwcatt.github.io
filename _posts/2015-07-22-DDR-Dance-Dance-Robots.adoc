@@ -8,8 +8,9 @@ We’re two weeks in to our summer of code, and things are picking up quickly!
 
 We started off by learning Python, a commonly-used programming language that's applicable in almost every field. We built on our knowledge of variables, loops, and conditionals in Python, and we also had our first opportunity to write functions and use lists. We also had the chance to see practical applications for these programming concepts by learning about robotics, image processing, and computer vision.
 
-.Girls who program robots
-image:/images/week2-photo1.jpg[caption = ""]
+.Girls who program robots 
+image:/images/week2-photo1.jpg[caption = "" width = "300" align="center"]
 
 .Just out here dancing to Beyoncé
-video::/images/week2-video1.mp4[]
+video::/images/week2-video1.mp4[width = "300" align="center"]
+

@@ -1,0 +1,6 @@
+= A Day in the Life of a Google Engineer
+
+:published_at: 2015-07-15
+
+:hp-tags: Week 1
+

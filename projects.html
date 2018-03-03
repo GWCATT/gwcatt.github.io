@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>SURPRISE</title>
+  <style type="text/css">
+      body {
+        height: 100%;
+        width: 100%;
+      }
+      p {
+      font-family: "Futura-CondensedMedium", sans-serif;
+      font-size: 15em;
+      height: 80%;
+      width: 100%;
+      margin: auto;
+      position: absolute;
+      top: 50%; left: 50%;
+      -webkit-transform: translate(-50%,-50%);
+          -ms-transform: translate(-50%,-50%);
+              transform: translate(-50%,-50%);
+      text-align: center;
+      display: block;
+    }
+  </style>
+  <script>
+    hue = 10
+    setInterval(function() {
+        document.body.style.backgroundColor = "hsl(" + hue + ", 100%, 70%)";
+        document.body.style.color = "hsl(" + (hue + 180) % 360 + ", 100%, 70%)";
+        hue = (hue + 50) % 360;
+        
+    }, 150);
+  </script>
+</head>
+<body>
+  <title>!!!</title>
+  <div>
+    <p>WELCOME BACK OPHELIA</p>
+  </div>
+</body>
+</html>
